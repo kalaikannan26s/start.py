@@ -1,0 +1,13 @@
+n1=int(input())
+h=0
+while(n1>60):
+  min=n1-60
+  h=h+1
+  if(min>60):
+    n1=min
+  else:
+    break
+if(n1>60):
+  print(h,min)
+else:
+  print(h,n1)
